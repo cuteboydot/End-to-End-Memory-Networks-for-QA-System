@@ -38,6 +38,7 @@ multi hop
 2.1 Position Encoding  
 문장-단어 구조에서 보통 Bag-of-Words(BOW) 방식으로 많이 사용하지만,  
 단어의 위치 정보를 고려한 position encoding 정보를 embedding vector에 곱해준다.  
+  
 <img src="./img/paper_pe.png" width="75%">  
   
 2.2 Adjacent weight sharing  
