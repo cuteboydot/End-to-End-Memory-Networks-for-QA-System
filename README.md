@@ -55,6 +55,16 @@ T_A, T_C는 여러 문장의 순서에 따른 사실 관계 추론을 위한 추
   
 ### Test result  
 본 프로젝트는 총 20종류의 데이터 중, 1번(single-supporting)과 16번(basic-induction) 내용을 사용하였다.  
+실험 환경은 다음과 같다.  
+- python 3.6  
+- tensorflow 1.3  
+- data size for train : 10,000 (qa1, qa16 각각)  
+- data size for test : 1,000 (qa1, qa16 각각)  
+- number of hop : 3  
+- embedding dim : 20  
+- total epochs : 300  
+- batch size : 50  
+- learngin rate : 0.0001  
   
 #### qa1 : single supporting  
 <img src="./img/result_qa1_train.png" width="75%">  
