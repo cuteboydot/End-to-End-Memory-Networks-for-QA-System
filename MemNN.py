@@ -1,5 +1,5 @@
 """
-Implementation of End to End Memory Networks (MenMM)
+Implementation of End To End Memory Networks (MemNN)
 
 Reference
 1. https://papers.nips.cc/paper/5846-end-to-end-memory-networks.pdf
